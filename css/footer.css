@@ -1,0 +1,15 @@
+.footer__dev__info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+    background-color: white;
+}
+
+.footer__info{
+    font-family: var(--fuente_principal);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.2em;
+}

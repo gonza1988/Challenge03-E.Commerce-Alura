@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/banner.css">
     <link rel="stylesheet" href="./css/productos.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/footer.css">
 
 </head>
 <body>
@@ -231,6 +233,48 @@
         </div>
   
     </main>
+
+    <footer>
+
+        <section class="contacto__container">
+
+            <div class="contacto__image__container">
+                <img class="contacto__image" src="./resources/Logo/LogoAluraGeek.svg" alt="Logo Alura Geek">
+            </div>
+
+            <div class="contacto__menu">
+                <a class="contacto__menu__link" href="#"><p class="contacto__menu__texto">Quienes somos</p></a>
+                <a class="contacto__menu__link" href="#"><p class="contacto__menu__texto">Política de privacidad</p></a>
+                <a class="contacto__menu__link" href="#"><p class="contacto__menu__texto">Programa de fidelidad</p></a>
+                <a class="contacto__menu__link" href="#"><p class="contacto__menu__texto">Nuestras tiendas</p></a>
+                <a class="contacto__menu__link" href="#"><p class="contacto__menu__texto">Quiero ser franquiciado</p></a>
+                <a class="contacto__menu__link" href="#"><p class="contacto__menu__texto">Anuncie aquí</p></a>                        
+            </div>
+
+            <form class="contacto__mensaje__container">
+                <h2 class="contacto__mensaje__titulo">Hable con nosotros</h2>
+                <div class="contacto__input__container">
+                    <label class="contacto__info" for="Nombre">Nombre</label>
+                    <input class="contacto__input" type="text" id="Nombre">
+                </div>
+
+                <div class="contacto__input__container">
+                    <label class="contacto__info" for="Mensaje">Escriba su mensaje</label>
+                    <textarea class="contacto__input input-mensaje" name="Mensaje" id="Mensaje"></textarea>
+                </div>
+
+                <button class="contacto__boton__enviar">Enviar Mensaje</button>
+
+            </form>
+
+        </section>
+
+        <div class="footer__dev__info">
+            <p class="footer__info">Desarrollado por Gonzalo Cozzo</p>
+            <p class="footer__info">2022</p>
+        </div>
+        
+    </footer>
     
 </body>
 </html>
