@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Login</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./resources/Icons/AluraGeek.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/header-login.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/main-login.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="./index.html"><img class="header__logo" src="./resources/Logo/LogoAluraGeek.svg"
+                    alt="Logo AluraGeek"></a>
+        </div>
+        <a class="header__back" href="./index.html">
+            <div class="header__back__elements">
+                <img class="header__back__icon" src="./resources/Icons/back.svg" alt="Icono volver">
+                <p class="header__back__text">Volver</p>
+            </div>
+        </a>
+    </header>
+
+    <main class="main">
+
+        
+        <div class="main__container">
+            <img class="main__image" src="./resources/Images/imagen_login.jpg"
+                alt="Imagen Presentacion">
+            <div class="main__login__container">
+                <h2 class="main__login__titulo">Iniciar Sesión</h2>
+                <input class="input__login" type="email" name="Email" id="Email" placeholder="Correo Electrónico">
+                <input class="input__login" type="password" name="Password" id="Password" placeholder="Contraseña">
+                <a class="login__boton__link" href="./admin-page.html"><button class="main__login__boton">Entrar</button></a>
+                <p class="main__register">¿Aún no te has registrado? <a class="link__register" href="#">Registrate aquí</a></p>
+            </div>
+        </div>  
+        
+        
+
+    </main>
+
+    <footer>
+        <section class="contacto__container">
+
+            <div class="contacto__image__container">
+                <img class="contacto_image" src="./resources/Logo/LogoAluraGeek.svg" alt="Logo Alura Geek">
+            </div>
+
+            <div class="contacto__menu">
+                <a class="contacto__menu__link" href="#"><p class="contacto__menu__texto">Quienes somos</p></a>
+                <a class="contacto__menu__link" href="#"><p class="contacto__menu__texto">Política de privacidad</p></a>
+                <a class="contacto__menu__link" href="#"><p class="contacto__menu__texto">Programa de fidelidad</p></a>
+                <a class="contacto__menu__link" href="#"><p class="contacto__menu__texto">Nuestras tiendas</p></a>
+                <a class="contacto__menu__link" href="#"><p class="contacto__menu__texto">Quiero ser franquiciado</p></a>
+                <a class="contacto__menu__link" href="#"><p class="contacto__menu__texto">Anuncie aquí</p></a>                        
+            </div>
+
+            <form class="contacto__mensaje__container">
+                <h2 class="contacto__mensaje__titulo">Hable con nosotros</h2>
+                <div class="contacto__input__container">
+                    <label class="contacto__info" for="Nombre">Nombre</label>
+                    <input class="contacto__input" type="text" id="Nombre">
+                </div>
+
+                <div class="contacto__input__container">
+                    <label class="contacto__info" for="Mensaje">Escriba su mensaje</label>
+                    <textarea class="contacto__input input-mensaje" name="Mensaje" id="Mensaje"></textarea>
+                </div>
+
+                <button class="contacto__boton__enviar">Enviar Mensaje</button>
+
+            </form>
+
+        </section>
+
+        <div class="footer__dev__info">
+            <p class="footer_info">Desarrollado por Gonzalo Cozzo</p>
+            <p class="footer_info">2022</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

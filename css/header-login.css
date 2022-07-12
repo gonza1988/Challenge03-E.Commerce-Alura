@@ -1,0 +1,44 @@
+.header{
+    background-color: var(--color_fondo);
+    width: 100%;
+}
+
+.header__container{
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__logo{
+    width: 190px;
+    margin: 0 auto;
+}
+
+.header__back{
+    text-decoration: none;
+    margin: 0 40px;
+    position:absolute;
+    top: 30.725px;
+    left: 0px;
+    transition: all 300ms;
+}
+
+.header__back:hover{
+    left: -5px;
+}
+
+.header__back__icon{
+    height: 16px;
+}
+
+.header__back__elements{
+    display: flex;
+}
+
+.header__back__text{
+    color: black;
+    font-weight: 500;
+    margin: 0 10px;
+    font-family: var(--fuente_principal);
+}
