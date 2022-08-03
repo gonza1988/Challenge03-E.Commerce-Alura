@@ -92,3 +92,47 @@
 	margin: 0 20px;
 }
 
+
+@media screen and (max-width: 820px) {
+    
+    .contacto__container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 317px;
+    }
+
+    .contacto__mensaje__container {
+        width: 40%;
+    }
+
+    .contacto__menu {
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 470px){
+
+    .contacto__container {
+        height: auto;
+        flex-wrap: nowrap;
+    }
+
+    .contacto__menu {
+        align-items: center;
+        margin: 20px;
+    }
+
+    .contacto__mensaje__container {
+        width: 70%;
+    }
+
+    .contacto__mensaje__titulo {
+        margin: 20px 0 10px 0;
+        text-align: center;
+    }
+
+    .contacto__boton__enviar {
+        width: 100%;
+    }
+
+}

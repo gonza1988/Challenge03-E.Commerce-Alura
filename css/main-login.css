@@ -1,25 +1,26 @@
-.main__container{
+.main__container {
     display: flex;
     align-items: center;
-    
+    margin: 100px 0;
+    flex-direction: column;
 }
 
 .main__login__container{
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 50px auto 0;
     align-items: center;
 }
 
 .main__login__titulo{
     font-family: var(--fuente_principal);
     font-weight: 600;
-    font-size: 30px;
-    margin: 10px 0;
+    font-size: 40px;
+    margin: 20px 0;
 }
 
 .login__boton__link{
-    width: 100%;
+    width: 25%;
 }
 
 .input__login {
@@ -27,7 +28,7 @@
     font-family: var(--fuente_principal);
 	border: none;
 	width: 300px;
-    margin: 5px 0;
+    margin: 10px 0;
     padding: 10px 10px;
 	background-color: #F5F5F5;
     border-radius: 10px;
@@ -64,10 +65,6 @@
 }
 
 @media screen and (max-width:900px) {
-
-    .main__image {
-        display: none;
-    }   
 
     .main__container {
         display: flex;
