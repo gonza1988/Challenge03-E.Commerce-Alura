@@ -4,11 +4,6 @@
     
 }
 
-.main__image{
-    height: calc(100vh - 77.45px);
-    max-height: 670px;
-}
-
 .main__login__container{
     display: flex;
     flex-direction: column;

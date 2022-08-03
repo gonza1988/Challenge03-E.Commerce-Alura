@@ -13,3 +13,27 @@
     font-size: 13px;
     line-height: 1.2em;
 }
+
+.contacto__input__container--invalid {
+    margin-bottom: 0.5rem;
+  }
+  
+  .contacto__input__container--invalid .input {
+    border: 1px solid var(--warning-color);
+    border-radius: 7px;
+  }
+  
+  .contacto__input__container--invalid .input-label {
+    color: var(--warning-color);
+  }
+  
+  .input-message-error {
+    display: none;
+  }
+  
+  .contacto__input__container--invalid .input-message-error {
+    color: var(--warning-color);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }

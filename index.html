@@ -251,19 +251,21 @@
                 <a class="contacto__menu__link" href="#"><p class="contacto__menu__texto">Anuncie aquí</p></a>                        
             </div>
 
-            <form class="contacto__mensaje__container">
+            <form class="contacto__mensaje__container" data-form-contacto>
                 <h2 class="contacto__mensaje__titulo">Hable con nosotros</h2>
                 <div class="contacto__input__container">
                     <label class="contacto__info" for="Nombre">Nombre</label>
-                    <input class="contacto__input" type="text" id="Nombre">
+                    <input class="contacto__input" type="text" id="Nombre" required data-tipo="nombre" maxlength="40">
+                    <span class="input-message-error">Este campo no es valido</span>
                 </div>
 
                 <div class="contacto__input__container">
                     <label class="contacto__info" for="Mensaje">Escriba su mensaje</label>
-                    <textarea class="contacto__input input-mensaje" name="Mensaje" id="Mensaje"></textarea>
+                    <input class="contacto__input input-mensaje" name="Mensaje" id="Mensaje" data-tipo="mensaje" required maxlength="120"></input>
+                    <span class="input-message-error">Este campo no es valido</span>
                 </div>
 
-                <button class="contacto__boton__enviar">Enviar Mensaje</button>
+                <button type="submit" class="contacto__boton__enviar" data-mensaje-btn>Enviar Mensaje</button>
 
             </form>
 
@@ -276,5 +278,7 @@
         
     </footer>
     
+    <script src="./js/validacion-mensaje.js"></script>
+
 </body>
 </html>
