@@ -33,30 +33,30 @@
     </header>
 
     <main>
-        <form class="agregar__producto__formulario">
+        <form class="agregar__producto__formulario" data-form>
             <h2 class="agregar__producto__titulo">Agregar nuevo producto</h2>
             <div class="agregar__form">
                 <label class="agregar__info" for="image">URL de imagen</label>
-                <input class="agregar__input" type="text" name="imagen" id="image">
+                <input class="agregar__input" type="text" name="imagen" id="image" required data-url>
             </div>
             <div class="agregar__form">
                 <label class="agregar__info" for="categoria">Categoria</label>
-                <input class="agregar__input" type="text" name="categoria" id="categoria">
+                <input class="agregar__input" type="text" name="categoria" id="categoria" required data-categoria>
             </div>
             <div class="agregar__form">
                 <label class="agregar__info" for="nombreProducto">Nombre del producto</label>
-                <input class="agregar__input" type="text" name="NombreProducto" id="nombreProducto">
+                <input class="agregar__input" type="text" name="NombreProducto" id="nombreProducto" required data-nombre>
             </div>
             <div class="agregar__form">
                 <label class="agregar__info" for="precioProducto">Precio del producto</label>
                 <div class="agregar__precio">
                     <p class="agregar__info divisa">$</p>
-                    <input class="agregar__input" type="number" name="precioProducto" id="precioProducto">
+                    <input class="agregar__input" type="number" name="precioProducto" id="precioProducto" required data-precio>
                 </div>
             </div>
             <div class="agregar__form">
                 <label class="agregar__info" for="descripcion">Descripción del producto</label>
-                <textarea class="agregar__input" name="descripcion" id="descripcion" rows="5"></textarea>
+                <textarea class="agregar__input" name="descripcion" id="descripcion" rows="5" data-descripcion></textarea>
             </div>
             <button class="agregar__btn">Agregar Producto</button>
         </form>
@@ -116,6 +116,7 @@
 
     </footer>
 
+    <script type="module" src="./controllers/crear-productos-controller.js"></script>
 </body>
 
 </html>
